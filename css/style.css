@@ -1,0 +1,196 @@
+* {
+  margin:0;
+  padding:0
+}
+body {
+  background-color: #F5F5F5; 
+  color: #212121; 
+  font-family: 'Open Sans', sans-serif;
+}
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+nav{
+
+  /*background-color: #E65100;  Naranja oscuro */
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+	
+header {
+    background-color:#313638;
+    background-color2: #E65100;
+    background-color1: #7f7563;
+    color: #e0dfd5;
+    padding: 2px 5px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header h1{
+  font-weight: bold;     /* Negrita */
+  font-style: italic;    /* Itálica */
+  font-family: 'Roboto', sans-serif; /* Fuente, opcional */
+  color: #FFFFFF;        /* Color del texto */
+  text-align: left;    /* Centrado opcional */
+font-size: 2.5em;            /* Tamaño grande */
+}
+
+
+/* Menú horizontal con Flex */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Catálogo con Flex */
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #f0f0f0;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Formulario con Flex */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Footer con Flex */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7f7563; /* Naranja oscuro */
+  color: white;
+  padding: 15px 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-item {
+  text-align: center;
+}
+
+.footer-item i {
+  font-size: 24px;
+  margin-left: 10px;
+  color: white;
+  cursor: pointer;
+
+}
+
+.social {
+ justify-content: space-between;
+    display: flex;
+    gap: 30px;
+    text-align:center;
+    justify-content: space-between;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  color: #f09d51; /* Naranja intenso */
+}
+
+
+form {
+  max-width: 450px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Open Sans', sans-serif;
+}
+
+fieldset {
+  border: 2px solid #E65100;   /* Naranja oscuro */
+  border-radius: 8px;
+  padding: 30px;
+}
+
+legend {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #E65100;
+  padding: 0 10px;
+}
+
+label {
+  display: block;              /* Cada label ocupa toda la línea */
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  color: #E65100;
+}
+
+input, textarea {
+  width: 100%;                 /* Ocupan todo el ancho */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  background-color: #FFA726;   /* Botón naranja brillante */
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #FF9800;   /* Hover naranja intenso */
+}
+
+
